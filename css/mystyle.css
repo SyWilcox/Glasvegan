@@ -126,9 +126,13 @@ p {
 #info1 h3 {
   text-align: center;
   color: #b2b2b2;
-  font: 220% "babe2";
+  font: 220% "babe1";
   position: relative;
   top: 70px;
+}
+
+.second-row {
+  font-family: "babe2";
 }
 
 .smile {
@@ -220,7 +224,9 @@ p {
   border-radius: 100%;
   /* border: 1px solid white; */
   position: relative;
-  top: -200px;
+  top: -180px;
+  float: right;
+  left: 70px;
   background: url("../images/bike.jpg") no-repeat center;
   background-size: cover;
   cursor: pointer;
@@ -383,6 +389,7 @@ form label {
 
 #submit-button {
   margin-top: -20px;
+  border-radius: 20px;
 }
 
 /* Footer */

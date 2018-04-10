@@ -40,6 +40,16 @@ p {
   src: url("../fonts/lemonaid.otf");
 }
 
+@font-face {
+  font-family: outline;
+  src: url("../fonts/lulo-outline-bold.otf");
+}
+
+@font-face {
+  font-family: lulo-bold;
+  src: url("../fonts/luloBold.otf");
+}
+
 /* Center Nav Bar */
 
 .navbar .navbar-nav {
@@ -98,6 +108,18 @@ p {
   position: relative;
   border: 1px dashed white;
   margin-bottom: 15px;
+}
+
+.second-title {
+  font: 74% "outline";
+  position: relative;
+  left: 10px;
+}
+
+.lulo-bold {
+  font: 74% "lulo-bold";
+  position: relative;
+  left: 10px;
 }
 
 .savoury-crepes h1 {
