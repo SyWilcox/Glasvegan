@@ -8,6 +8,10 @@ p {
   color: #bfbfbf;
 }
 
+.btn {
+  border: none;
+}
+
 /* Fonts */
 
 @font-face {
@@ -18,6 +22,16 @@ p {
 @font-face {
   font-family: babe2;
   src: url("../fonts/babe2.ttf");
+}
+
+@font-face {
+  font-family: lulo-bold;
+  src: url("../fonts/luloBold.otf");
+}
+
+@font-face {
+  font-family: outline;
+  src: url("../fonts/lulo-outline-bold.otf");
 }
 
 /* Center Nav Bar */
@@ -40,7 +54,8 @@ p {
 /* Logo */
 
 .logo-div {
-  top: -50px;
+  top: -10px;
+  z-index: 30;
   width: 100%;
   height: 550px;
   position: relative;
@@ -126,22 +141,27 @@ p {
 #info1 h3 {
   text-align: center;
   color: #b2b2b2;
-  font: 220% "babe1";
+  font: 150% "outline";
   position: relative;
-  top: 70px;
+  top: 60px;
+}
+
+#product {
+  font-size: 150%;
+  margin-left: 6px;
 }
 
 .second-row {
-  font-family: "babe2";
+  font: 120% "babe2";
 }
 
 .smile {
-  color: white;
+  color: #b2b2b2;
   position: relative;
   width: 50px;
   height: 50px;
   margin: 0 auto;
-  top: 70px;
+  top: 50px;
   left: 10px;
 }
 
@@ -224,7 +244,7 @@ p {
   border-radius: 100%;
   /* border: 1px solid white; */
   position: relative;
-  top: -180px;
+  top: -275px;
   float: right;
   left: 70px;
   background: url("../images/bike.jpg") no-repeat center;
@@ -245,14 +265,37 @@ p {
   top: -40px;
 }
 
+.ethos-text h3 {
+  font: 150% "outline";
+  color: #b2b2b2;
+  text-align: center;
+  position: relative;
+  top: -70px;
+}
+
+.ethos-alt {
+  font: 100% "lulo-bold";
+}
+
 .ethos-text p {
   font: 120%/1.7 "IBM Plex Sans Condensed";
   position: relative;
-  top: -10px;
-  left: -50px;
+  top: -40px;
+  left: -40px;
   text-align: justify;
   margin: 0 auto;
   width: 100%;
+}
+
+/* ANIMATION */
+
+#animation {
+  width: 100%;
+  height: 140px;
+  border: 1px solid white;
+  margin-top: -110px;
+  position: relative;
+  top: -40px;
 }
 
 /* Boxes */
@@ -278,6 +321,9 @@ p {
 
 .food-box {
   height: 490px;
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
   border: 1px dashed white;
   position: relative;
   margin-top: 10px;
@@ -319,7 +365,7 @@ p {
 }
 
 .menu-button button {
-  border: 1px solid white;
+  /* border: 0.7px solid white; */
   background-color: teal;
   width: 70px;
   height: 40px;
@@ -387,9 +433,18 @@ form label {
   font: 120%/1.7 "IBM Plex Sans Condensed";
 }
 
+textarea {
+  resize: none;
+}
+
 #submit-button {
   margin-top: -20px;
   border-radius: 20px;
+}
+
+.btn:hover {
+  background-color: #b2b2b2;
+  color: black;
 }
 
 /* Footer */

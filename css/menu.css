@@ -116,6 +116,10 @@ p {
   left: 10px;
 }
 
+.alt-letter {
+  font: 100% "outline";
+}
+
 .lulo-bold {
   font: 74% "lulo-bold";
   position: relative;
