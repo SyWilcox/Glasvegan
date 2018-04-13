@@ -3,8 +3,8 @@ body {
   overflow-x: hidden;
 }
 
-body, html {
-  overflow-x: hidden;
+.row1 {
+  overflow: hidden;
 }
 
 p {
