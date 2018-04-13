@@ -322,6 +322,14 @@ p {
 
 /* Media Queries */
 
+@media screen and (min-width: 992px) and (max-width: 1084px) {
+  #fill3 {
+    position: relative;
+    top: -275px;
+    left: 380px;
+  }
+}
+
 @media screen and (min-width: 767px) {
   .navbar-inverse {
     background: none;
